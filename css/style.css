@@ -1,0 +1,25 @@
+.task-title {
+    font-weight: bold;
+}
+
+.task-result {
+    font-size  : 24px;
+    font-weight: bolder;
+    color      : green;
+}
+
+.access-denied {
+    font-size  : 24px;
+    font-weight: bolder;
+    color      : red;
+}
+
+.student {
+    width                : 20%;
+    display              : grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image {
+    width: 200px;
+}
