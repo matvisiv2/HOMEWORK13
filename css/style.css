@@ -2,21 +2,22 @@
     font-weight: bold;
 }
 
-.task-result {
-    font-size  : 24px;
+.status {
     font-weight: bolder;
-    color      : green;
 }
 
-.access-denied {
-    font-size  : 24px;
-    font-weight: bolder;
-    color      : red;
+.status-fulfilled {
+    color: green;
+}
+
+.status-pending,
+.status-rejected {
+    color: red;
 }
 
 .student {
-    width                : 20%;
-    display              : grid;
+    width: 20%;
+    display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
